@@ -1,0 +1,87 @@
+html, button, input, select, textarea,.pure-g [class *= "pure-u"] {
+font-family:'Montserrat', sans-serif}
+
+.title {background:none repeat scroll 0 0 #2C3E50;color:#eee;position:fixed;width:100%;z-index:1000}
+.title .container {max-width:800px;margin:1em auto}
+.title .container > div {margin:0 1em}
+.title .logo img {width:50px;margin-right:0.75em;vertical-align:top}
+.title .logo div {display:inline-block;margin-top:10px;font-size:1.5em;font-family:'Paytone One', sans-serif;text-transform:uppercase}
+.title .logo div > span {display:inline;line-height:1em}
+.title .logo a {color:#fff}
+.title .logo br {display:none}
+.title .share {float:right;text-align:right}
+.title .share a {text-decoration:none;margin-left:0.3em;margin-top:5px}
+.title .share img {width:40px}
+#share-full {display:block;margin-top:5px}
+#share-general {display:none}
+
+.app-logo,.app-name,.app-shortdesc,.app-download,.app-gamedesigner {text-align:center}
+.app-name {font-size:3.5em;margin:0.5em 0;font-weight:bold;line-height:1.3em;color:#2C3E50}
+.app-shortdesc,.app-gamedesigner {font-size:1.5em;margin-bottom:0.5em;color:#6B7884;line-height:1.3em}
+.app-download {margin:3em 0 5em}
+.app-screenshots {margin:0 auto 3em;max-width:640px}
+.app-screenshots > img {margin-bottom:1em}
+.app-screenshots .img-box{padding:0 0.5em 1em}
+.app-desc {margin-bottom:3em}
+.app-desc .story{font-style:italic;font-size:0.9em;margin-top:0}
+.app-desc ul{margin:0}
+.app-credits > ul{list-style-type:none;padding:0;margin:0}
+.app-credits ul ul{list-style-type:disc}
+.app-credits > div,.app-desc > div {font-size:1.4em;margin-bottom:0.5em;color:#6B7884}
+
+a{color:#777}
+
+.content {margin:0 auto;padding:7em 2em 0;max-width:800px;margin-bottom:50px;line-height:1.6em;color:#333}
+
+.footer{background:none repeat scroll 0 0 #2C3E50;color:#eee;margin:0;font-size:0.75em;text-align:center;padding:1em 2em;line-height:1.3em}
+.footer a{color:#fff;text-decoration:none;font-weight:normal}
+.footer a > img{width:20px;vertical-align:middle}
+.footer > span {white-space:nowrap}
+
+.play-link img{width:200px}
+
+@media screen and (max-width:550px) {
+    .app-screenshots .img-box{padding:0 0.5em 2em}
+    #share-full {display:none;position:fixed;top:78px;right:0;background:none repeat scroll 0 0 #2C3E50;z-index:1000;padding:0.5em 1em}
+    #share-full a {display:block;}
+    #share-general {display:block}
+    .footer {padding:0.5em 1em}
+	.footer > span.divider {display:none}
+	.footer > span.text {display:block;margin:0.75em 0;line-height:1.6em}
+}
+
+@media screen and (max-width:450px) {
+    .title .logo div > span {display:block}
+    .title .logo div {font-size:1.2em;line-height:12px;margin-top:8px;}
+    .title .logo br {display:block}
+}
+
+.follow-link img{width:60px}
+
+.center{text-align:center}
+.margin-auto{margin:0 auto}
+
+@media screen and (min-width: 35.5em) {
+    .pure-u-sm-1-2{width:45%}
+}
+
+#main-title{background:none repeat scroll 0 0 #2C3E50;color:#eee;width:100%;text-align:center;padding:2em 0}
+#main-logo{width:150px;margin-right:0.5em;vertical-align:top}
+#main-name{display:inline-block;font-size:3em;font-family:'Paytone One', sans-serif;text-transform:uppercase;margin:50px 0 0;padding:0 0.5em}
+#main-content {margin:0 auto;padding:2em 2em 0;max-width:800px;line-height:1.6em;color:#333}
+.main-part{margin-bottom:3em}
+.main-part h2{font-size:1.4em;margin-bottom:0.5em;color:#6B7884}
+.main-part img{vertical-align:middle}
+.app-info{display:inline-block;width:200px;padding:0.5em 1em 2em;text-align:center;text-decoration:none;vertical-align:top}
+
+@media screen and (max-width:400px) {
+    #main-name{font-size:2.5em}
+}
+
+@media screen and (max-width:530px) {
+    .app-info {width:90%}
+}
+
+@media screen and (max-width:780px) {
+    #main-name{display:block;margin-top:25px}
+}
