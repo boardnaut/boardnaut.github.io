@@ -42,11 +42,16 @@ a{color:#777}
 .play-link,.appstore-link{text-decoration:none}
 .appstore-link{margin-right:20px}
 
+.index-link{display:inline-block;margin:0 20px 20px 0}
+
 @media screen and (max-width:550px) {
     .app-screenshots .img-box{padding:0 0.5em 2em}
     #share-full {display:none;position:fixed;top:78px;right:0;background:none repeat scroll 0 0 #2C3E50;z-index:1000;padding:0.5em 1em}
     #share-full a {display:block;}
     #share-general {display:block}
+}
+
+@media screen and (max-width:680px) {
     .footer {padding:0.5em 1em}
 	.footer > span.divider {display:none}
 	.footer > span.text {display:block;margin:0.75em 0;line-height:1.6em}
