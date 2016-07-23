@@ -84,6 +84,9 @@ a{color:#777}
 .main-part img{vertical-align:middle}
 .app-info{display:inline-block;width:200px;padding:0.5em 1em 2em;text-align:center;text-decoration:none;vertical-align:top}
 
+.faq-q{line-height:1.6em;color:#333;font-size:1.4em;margin:2.5em 0 0.5em}
+.faq-a{line-height:1.6em;color:#333}
+
 @media screen and (max-width:400px) {
     #main-name{font-size:2.5em}
 }
