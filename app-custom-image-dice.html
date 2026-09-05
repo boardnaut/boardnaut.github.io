@@ -1,69 +1,61 @@
 <!doctype html>
-<html itemscope itemtype="https://schema.org/SoftwareApplication">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Custom Image Dice - create dice with custom images for sides and create card decks from images from Boardnaut Studios">
-	<meta name="keywords" content="boardgames board games android">
-	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="./images/favicon.png" type="image/png">
 
     <title>Custom Image Dice - mobile app from Boardnaut Studios</title>
 
-	<meta property="og:url" content="http://boardnaut.com/app-custom-image-dice.html" />
+	<meta property="og:url" content="https://boardnaut.com/app-custom-image-dice.html" />
 	<meta property="og:title" content="Custom Image Dice - mobile app" />
 	<meta property="og:description" content="Create dice with custom images for sides and create card decks from images from Boardnaut Studios" />
-	<meta property="og:image" content="http://boardnaut.com/images/appicons/customImageDice.png" />
+	<meta property="og:image" content="https://boardnaut.com/images/appicons/customImageDice.png" />
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@boardnaut" />
 	<meta name="twitter:title" content="Custom Image Dice - mobile app" />
 	<meta name="twitter:description" content="Create dice with custom images for sides and create card decks from images from @boardnaut" />
-	<meta name="twitter:image" content="http://boardnaut.com/images/appicons/customImageDice.png" />
+	<meta name="twitter:image" content="https://boardnaut.com/images/appicons/customImageDice.png" />
 
 	<meta itemprop="name" content="Custom Image Dice - mobile app">
 	<meta itemprop="description" content="Create dice with custom images for sides and create card decks from images from Boardnaut Studios">
-	<meta itemprop="image" content="http://boardnaut.com/images/appicons/customImageDice.png">
+	<meta itemprop="image" content="https://boardnaut.com/images/appicons/customImageDice.png">
 
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Paytone+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" />
 	<link rel="stylesheet" type="text/css" href="main.css"/>
-	
-	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-80592477-1', 'auto');
-ga('send', 'pageview');</script>
 </head>
 
 <body>
-	<div class="title">
+	<header class="title">
 		<div class="container">
 			<div>
 				<div class="share">
-					<a id="share-general" title="Share" href="javascript:toggle();">
-						<img src="./images/share-hex.png" />
-					</a>
+					<button id="share-general" class="share-toggle" title="Share" type="button" aria-controls="share-full" aria-expanded="false">
+						<img alt="" src="./images/share-hex.png" />
+					</button>
 					<div id="share-full">
-						<a title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Custom Image Dice - create dice and create card decks from images from @boardnaut http://boardnaut.com/app-custom-image-dice.html" target="_blank">
-							<img src="./images/share-twitter-hex.png" />
+						<a title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Custom Image Dice - create dice and create card decks from images from @boardnaut https://boardnaut.com/app-custom-image-dice.html" rel="noopener noreferrer" target="_blank">
+							<img alt="" src="./images/share-twitter-hex.png" />
 						</a>
-						<a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://boardnaut.com/app-custom-image-dice.html" target="_blank">
-							<img src="./images/share-fb-hex.png" />
+						<a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://boardnaut.com/app-custom-image-dice.html" rel="noopener noreferrer" target="_blank">
+							<img alt="" src="./images/share-fb-hex.png" />
 						</a>
 					</div>
 				</div>
 				<div class="logo"><a href="/"><img alt="Boardnaut Studios logo" title="Boardnaut Studios logo" src="./images/logo.png" /><div><span>Boardnaut</span> <span>Studios</span></div></a></div>
 			</div>
 		</div>
-	</div>
+	</header>
 
-	<div class="content">
+	<main class="content">
 		<div class="app-logo"><img class="app-icon" alt="Custom Image Dice" title="Custom Image Dice" src="./images/appicons/customImageDice.png" /></div>
 		<h1 class="app-name">Custom Image Dice</h1>
 		<h2 class="app-shortdesc">Create dice with custom images for sides and create card decks from images</h2>
 		<div class="app-download">
-			<a class="play-link" href="https://play.google.com/store/apps/details?id=org.boardnaut.studios.customimagedice">
+			<a class="play-link" href="https://play.google.com/store/apps/details?id=org.boardnaut.studios.customimagedice" rel="noopener noreferrer">
 				<img alt="Get it on Google Play" src="./images/google-play-badge.png" />
 			</a>
 		</div>
@@ -97,19 +89,19 @@ ga('send', 'pageview');</script>
 			<div>List of already created dice sets</div>
 			<span>Some of these dice set are not created by us and are hosted on different sites</span>
 			<ul>
-				<li><a class="data-link" href="data/customImageDice/customImageDice_commonDice.zip">Common dice (d2, d4, d6, d8, d10, d12, d20)&nbsp;<img src="images/icon_download.png" /></a></li>
-				<li><a class="data-link" href="data/customImageDice/customImageDice_fudgeDice.zip">Fudge/Fate dice&nbsp;<img src="images/icon_download.png" /></a></li>
-				<li><a class="data-link" href="https://boardgamegeek.com/filepage/118258/dice-set-custom-image-dice-app-posted-permission-h">Dune: The Dice Game (game designer: Heiko Günther)&nbsp;<img src="images/icon_link.png" /></a></li>
-				<li><a class="data-link" href="data/customImageDice/customImageDice_survivalTin.zip">Survival Tin (game designer: Todd Sanders)&nbsp;<img src="images/icon_download.png" /></a></li>
-				<li><a class="data-link" href="data/customImageDice/customImageDice_deepSpaceD6.zip">Deep Space D-6 (game designer: Tony Go)&nbsp;<img src="images/icon_download.png" /></a></li>
-				<li><a class="data-link" href="https://boardgamegeek.com/filepage/118464/dice-set-custom-image-dice-app">Agricola Express (game designer: Jesse McGatha, artist: kSwingrÜber)&nbsp;<img src="images/icon_link.png" /></a></li>
-				<li><a class="data-link" href="https://boardgamegeek.com/filepage/118610/dice-set-custom-image-dice-app">Infection Express (game designer: Andy Oakey, artist: Michael S. Kelly (Malechi))&nbsp;<img src="images/icon_link.png" /></a></li>
-				<li><a class="data-link" href="https://boardgamegeek.com/filepage/118611/dice-set-custom-image-dice-app">RoboDerby: Express (game designer: Clint Herron, artist: Michael S. Kelly (Malechi))&nbsp;<img src="images/icon_link.png" /></a></li>
-				<li><a class="data-link" href="data/customImageDice/customImageDice_conmenNewClothesForTheEmperor.zip">Conmen: New clothes for the Emperor (game designer: Ville Parkkinen)&nbsp;<img src="images/icon_download.png" /></a></li>
-				
-				<li style="margin-top:20px"><a href="https://boardgamegeek.com/geeklist/192424/dice-sets-custom-image-dice-android-app">Other dice sets on boardgamegeek.com</a></li>
-				<li><a href="https://boardgamegeek.com/geeklist/192424/dice-sets-custom-image-dice-android-app">Other card decks on boardgamegeek.com</a></li>
-				
+				<li><a class="data-link" target="_blank" href="data/customImageDice/customImageDice_commonDice.zip">Common dice (d2, d4, d6, d8, d10, d12, d20)&nbsp;<img alt="" src="images/icon_download.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="data/customImageDice/customImageDice_fudgeDice.zip">Fudge/Fate dice&nbsp;<img alt="" src="images/icon_download.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="https://boardgamegeek.com/filepage/118258/dice-set-custom-image-dice-app-posted-permission-h" rel="noopener noreferrer">Dune: The Dice Game (game designer: Heiko Günther)&nbsp;<img alt="" src="images/icon_link.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="data/customImageDice/customImageDice_survivalTin.zip">Survival Tin (game designer: Todd Sanders)&nbsp;<img alt="" src="images/icon_download.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="data/customImageDice/customImageDice_deepSpaceD6.zip">Deep Space D-6 (game designer: Tony Go)&nbsp;<img alt="" src="images/icon_download.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="https://boardgamegeek.com/filepage/118464/dice-set-custom-image-dice-app" rel="noopener noreferrer">Agricola Express (game designer: Jesse McGatha, artist: kSwingrÜber)&nbsp;<img alt="" src="images/icon_link.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="https://boardgamegeek.com/filepage/118610/dice-set-custom-image-dice-app" rel="noopener noreferrer">Infection Express (game designer: Andy Oakey, artist: Michael S. Kelly (Malechi))&nbsp;<img alt="" src="images/icon_link.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="https://boardgamegeek.com/filepage/118611/dice-set-custom-image-dice-app" rel="noopener noreferrer">RoboDerby: Express (game designer: Clint Herron, artist: Michael S. Kelly (Malechi))&nbsp;<img alt="" src="images/icon_link.png" /></a></li>
+				<li><a class="data-link" target="_blank" href="data/customImageDice/customImageDice_conmenNewClothesForTheEmperor.zip">Conmen: New clothes for the Emperor (game designer: Ville Parkkinen)&nbsp;<img alt="" src="images/icon_download.png" /></a></li>
+
+				<li style="margin-top:20px"><a target="_blank" href="https://boardgamegeek.com/geeklist/192424/dice-sets-custom-image-dice-android-app" rel="noopener noreferrer">Other dice sets on boardgamegeek.com</a></li>
+				<li><a target="_blank" href="https://boardgamegeek.com/geeklist/192905/card-decks-for-custom-image-dice-android-app" rel="noopener noreferrer">Other card decks on boardgamegeek.com</a></li>
+
 			</ul>
 		</div>
 		<div class="app-credits">
@@ -118,21 +110,21 @@ ga('send', 'pageview');</script>
 				<li>App development: Marian Gablovský</li>
 			</ul>
 		</div>
-	</div>
+	</main>
 
-	<div class="footer">
-		<span class="text">Boardnaut Studios 2018</span>
+	<footer class="footer">
+		<span class="text">&copy; Boardnaut Studios 2016&ndash;2026</span>
 		<span class="divider">&nbsp;|&nbsp;</span>
-		<span class="text"><a title="Find me on Google Play" href="https://play.google.com/store/apps/developer?id=Boardnaut+Studios">Find me on Google Play™</a></span>
+		<span class="text"><a title="Find me on Google Play" href="https://play.google.com/store/apps/developer?id=Boardnaut+Studios" rel="noopener noreferrer">Find me on Google Play™</a></span>
 		<span class="divider">&nbsp;|&nbsp;</span>
-		<span class="text"><a title="Find me on App Store" href="https://itunes.apple.com/us/developer/marian-gablovsky/id1121041384">Find me on App Store</a></span>
+		<span class="text"><a title="Find me on App Store" href="https://apps.apple.com/us/developer/marian-gablovsky/id1121041384" rel="noopener noreferrer">Find me on App Store</a></span>
 		<span class="divider">&nbsp;|&nbsp;</span>
 		<span class="text">
 			Follow me on:&nbsp;
-			<a title="Follow me on Twitter" href="https://twitter.com/boardnaut" rel="publisher" target="_blank"><img alt="Follow me on Twitter" src="./images/share-twitter-hex.png" /></a>
+			<a title="Follow me on Twitter" href="https://twitter.com/boardnaut" rel="me noopener noreferrer" target="_blank"><img alt="Follow me on Twitter" src="./images/share-twitter-hex.png" /></a>
 		</span>
-	</div>
+	</footer>
 
-	<script type="text/javascript">function toggle(){var i=document.getElementById('share-full');i.style.display=i.style.display==''?'block':'';}</script>
+	<script src="./scripts/site.js"></script>
 </body>
 </html>

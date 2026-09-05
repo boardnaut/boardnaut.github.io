@@ -11,6 +11,7 @@ font-family:'Montserrat', sans-serif}
 .title .logo br {display:none}
 .title .share {float:right;text-align:right}
 .title .share a {text-decoration:none;margin-left:0.3em;margin-top:5px}
+.title .share .share-toggle{background:none;border:0;padding:0;cursor:pointer;margin-left:0.3em;margin-top:5px}
 .title .share img {width:40px}
 #share-full {display:block;margin-top:5px}
 #share-general {display:none}
@@ -40,8 +41,10 @@ font-family:'Montserrat', sans-serif}
 a{color:#777}
 
 .content {margin:0 auto;padding:7em 2em 0;max-width:800px;margin-bottom:50px;line-height:1.6em;color:#333}
+.content-spaced{margin-bottom:10em}
 
 .footer{background:none repeat scroll 0 0 #2C3E50;color:#eee;margin:0;font-size:0.75em;text-align:center;padding:1em 2em;line-height:1.3em}
+.footer-fixed{position:fixed;bottom:0;width:100%}
 .footer a{color:#fff;text-decoration:none;font-weight:normal}
 .footer a > img{width:20px;vertical-align:middle}
 .footer > span {white-space:nowrap}
@@ -50,6 +53,14 @@ a{color:#777}
 .play-link,.appstore-link{text-decoration:none;margin-left:10px;margin-right:10px}
 
 .index-link{display:inline-block;margin:0 20px 20px 0}
+.nowrap{white-space:nowrap}
+
+.contact-row{display:flex;flex-wrap:wrap;align-items:center;gap:0.75em}
+.contact-button{border:1px solid #2C3E50;background:#2C3E50;color:#fff;padding:0.6em 1em;border-radius:999px;cursor:pointer;font:inherit;line-height:1.2}
+.contact-button:hover,.contact-button:focus{background:#1f2f3d}
+.contact-email a{font-weight:700}
+
+a:focus-visible,.contact-button:focus-visible{outline:3px solid #6B7884;outline-offset:3px}
 
 @media screen and (max-width:550px) {
     .app-screenshots .img-box{padding:0 0.5em 2em}
